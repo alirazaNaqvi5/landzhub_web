@@ -1,0 +1,37 @@
+.hmain {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: rgba(19, 77, 32, 0.363); */
+    /* style={{backgroundImage: 'url("img.jpg")', backgroundRepeat: 'none', backgroundSize: 'cover', height: '80vh', backgroundPosition: 'bottom', backgroundBlendMode: 'overlay'}} */
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding: 0px 25px;
+    border-radius: 30px;
+    /* cursor: pointer; */
+    /* background-color: rgb(13, 77, 32); */
+    /* text-decoration: none; */
+}
+
+.box {
+    margin: 20px;
+    width: 30vh;
+    height: 22vh;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.485);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}

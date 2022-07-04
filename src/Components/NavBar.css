@@ -1,0 +1,122 @@
+@media screen and (max-width: 1708px) {
+
+    .navBar {
+        padding: 5px 30px;
+        display: flex;
+        flex-direction: row;    
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsl(101, 86%, 78%);
+        height: 60px;
+    }
+
+    button {
+        background-color: hsl(101, 86%, 78%);
+        border: none;
+        color: black;
+        /* padding: 15px 32px; */
+        /* text-align: center; */
+        /* text-decoration: none; */
+        display: inline-block;
+        font-size: 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* text-align: center; */
+        /* box-shadow: 4px; */
+        
+       
+      }
+
+      button:link, button:visited,  button:hover, button:active {
+        /* text-decoration: none;        */
+        background-color : hsl(101, 97%, 76%);
+      }
+
+    .link {
+        /* text-decoration: none; */
+        color: black;
+    }
+
+    .link:hover {
+        text-decoration: none;
+        color: rgb(9, 145, 81);
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    ul {
+        margin-left: -100px;
+        align-items: center;
+        /* border: 1px solid black */
+    }
+
+    ul li {
+        /* cursor: pointer; */
+        list-style-type: none;
+        display: inline-block;
+        padding: 5px 30px;
+        font-size: 16px;
+        
+    }
+
+    .login {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logintxt {
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 1709px){
+
+    .navBar {
+        padding: 5px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(182, 247, 151);
+        height: 60px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    ul {
+        margin-left: -130px;
+    }
+
+    ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 40px;
+        font-size: 16px;
+        height: 100%;
+    }
+
+    .login {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        /* color: white; */
+    }
+
+    .logintxt {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+}

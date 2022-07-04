@@ -1,0 +1,20 @@
+.cmain {
+    height: 120vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* background-color: rgba(19, 77, 32, 0.363); */
+    /* style={{backgroundImage: 'url("img.jpg")', backgroundRepeat: 'none', backgroundSize: 'cover', height: '80vh', backgroundPosition: 'bottom', backgroundBlendMode: 'overlay'}} */
+}
+
+.logo1 {
+    width: 150px;
+}
+
+.conimg{
+    width: 600px;
+    height: 500px;
+    /* padding: 20px 50px; */
+
+
+}
